@@ -1,9 +1,13 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("App", () => {
+  test("should render correctly", () => {
+    render(<App />);
+    const appElem = screen.getByRole("heading", {
+      name: /app/i,
+    });
+    expect(appElem).toBeInTheDocument();
+  });
 });

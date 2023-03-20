@@ -1,0 +1,36 @@
+/* eslint-disable no-undef */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "primary-100": "#FF6F61",
+        "primary-75": "rgba(255, 111, 97, 0.75)",
+        "primary-50": "rgba(255, 111, 97, 0.5)",
+        "primary-25": "rgba(255, 111, 97, 0.25)",
+        "primary-10": "rgba(255, 111, 97, 0.10)",
+        "primary-5": "rgba(255, 111, 97, 0.05)",
+        "black-100": "#1E2832",
+        "black-75": "rgba(30, 40, 50, 0.75)",
+        "black-50": "rgba(30, 40, 50, 0.5)",
+        "black-25": "rgba(30, 40, 50, 0.25)",
+        "black-10": "rgba(30, 40, 50, 0.10)",
+        "black-5": "rgba(30, 40, 50, 0.05)",
+        "white-100": "#FFFFFF",
+        "white-75": "rgba(255, 255, 255, 0.75)",
+        "white-50": "rgba(255, 255, 255, 0.5)",
+        "white-25": "rgba(255, 255, 255, 0.25)",
+        "white-10": "rgba(255, 255, 255, 0.10)",
+        "white-5": "rgba(255, 255, 255, 0.05)",
+        "dark-100": "#000000",
+        "dark-75": "rgba(0, 0, 0, 0.75)",
+        "dark-50": "rgba(0, 0, 0, 0.5)",
+        "dark-25": "rgba(0, 0, 0, 0.25)",
+        "dark-10": "rgba(0, 0, 0, 0.10)",
+        "dark-5": "rgba(0, 0, 0, 0.05)",
+        "stroke-100": "#E3E3E3",
+      },
+    },
+  },
+  plugins: [],
+};
